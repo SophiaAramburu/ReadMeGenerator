@@ -1,7 +1,34 @@
 const generateHTML = ({title, description, installation, usage, license, Git, email, contribution}) => {
-    console.log(title);
-    console.log(description);
-    console.log(installation); 
+    console.log(`# ${title}
+
+    # description
+    
+    ${description}
+    
+    # installation
+    
+    ${installation}
+    
+    # usage
+    
+    ${usage}
+    
+    # license
+    
+    ${license}
+    
+    # Git
+    
+    ${Git}
+    
+    # email
+    
+    ${email}
+    
+    # contribution
+    
+    ${contribution}`);
+    
 }
 
 module.exports = {
