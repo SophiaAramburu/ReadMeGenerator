@@ -48,8 +48,13 @@ inquirer.prompt([
             type: 'input',
             name: 'contribution',
             message: 'What were your contributions?'
-        }
+        },
     
+        {
+            type: 'input',
+            name: 'tests',
+            message: 'How would you test this?'
+        }
     ]).then((answers) => {
         //console.log(generateMarkdown(answers));
         fs.writeFile("demo.md", generateMarkdown(answers), (err) => {

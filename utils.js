@@ -1,4 +1,4 @@
-const generateMarkdown = ({title, description, installation, usage, license, Git, email, contribution}) => {
+const generateMarkdown = ({title, description, installation, usage, license, Git, email, contribution, tests}) => {
     return `# ${title}
 
     # description
@@ -27,7 +27,11 @@ const generateMarkdown = ({title, description, installation, usage, license, Git
     
     # contribution
     
-    ${contribution}`;
+    ${contribution}
+
+    # tests
+
+    ${tests}`;
     
 }
 
