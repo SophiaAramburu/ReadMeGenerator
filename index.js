@@ -1,7 +1,7 @@
 // inquirer to generate questions
 const inquirer = require('inquirer');
 const fs = require('fs');
-const {generateHTML} = require('./utils');
+const {generateMarkdown} = require('./utils');
 const { ifError } = require('assert');
 
 inquirer.prompt([
@@ -51,27 +51,18 @@ inquirer.prompt([
         }
     
     ]).then((answers) => {
-        //console.log(generateHTML(answers));
-        fs.writeFile("demo.md", generateHTML(answers), (err) => {
+        //console.log(generateMarkdown(answers));
+        fs.writeFile("demo.md", generateMarkdown(answers), (err) => {
             if(err) {
                 console.log(err);
             }
             
         });
-        // const htmlPageContent = generateHTML(answers);
-        // console.log(htmlPageContent);
+        
         })
 
 
-// Function to create our README using fs
-//createNewFile(title, template);
-// Creating the createNewFile function
-// function createNewFile(fileName, data){
-//     //fs
+
 //     fs.writeFile(`./${fileName.toLowerCase().split(' ').join('')}.md`,data,(err) => {
 //         if(err){
 //             console.log(err);
-//         }
-//         console.log('Your README has been generated!');
-//     })
-// };

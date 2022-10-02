@@ -1,4 +1,4 @@
-const generateHTML = ({title, description, installation, usage, license, Git, email, contribution}) => {
+const generateMarkdown = ({title, description, installation, usage, license, Git, email, contribution}) => {
     return `# ${title}
 
     # description
@@ -32,5 +32,5 @@ const generateHTML = ({title, description, installation, usage, license, Git, em
 }
 
 module.exports = {
-    generateHTML,
+    generateMarkdown,
 };

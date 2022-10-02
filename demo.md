@@ -1,8 +1,8 @@
-# f
+# d
 
     # description
     
-    f
+    d
     
     # installation
     
@@ -10,7 +10,7 @@
     
     # usage
     
-    
+    s
     
     # license
     
