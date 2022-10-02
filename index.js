@@ -50,7 +50,6 @@ inquirer.prompt([
         }
     
     ]).then((answers) => {
-        //console.log(answers);
         generateHTML(answers);
         // const htmlPageContent = generateHTML(answers);
         // console.log(htmlPageContent);
