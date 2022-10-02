@@ -52,7 +52,7 @@ inquirer.prompt([
     
     ]).then((answers) => {
         //console.log(generateHTML(answers));
-        fs.writeFile("demo.txt", "hello", (err) => {
+        fs.writeFile("demo.md", generateHTML(answers), (err) => {
             if(err) {
                 console.log(err);
             }
