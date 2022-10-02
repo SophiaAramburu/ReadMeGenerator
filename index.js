@@ -50,10 +50,11 @@ inquirer.prompt([
         }
     
     ]).then((answers) => {
-        generateHTML(answers);
+        console.log(generateHTML(answers));
         // const htmlPageContent = generateHTML(answers);
         // console.log(htmlPageContent);
         })
+
 
 // Function to create our README using fs
 //createNewFile(title, template);

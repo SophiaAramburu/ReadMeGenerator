@@ -1,5 +1,5 @@
 const generateHTML = ({title, description, installation, usage, license, Git, email, contribution}) => {
-    console.log(`# ${title}
+    return `# ${title}
 
     # description
     
@@ -27,7 +27,7 @@ const generateHTML = ({title, description, installation, usage, license, Git, em
     
     # contribution
     
-    ${contribution}`);
+    ${contribution}`;
     
 }
 
