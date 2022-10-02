@@ -2,7 +2,7 @@
 
     # description
     
-    d
+    g
     
     # installation
     
@@ -10,7 +10,7 @@
     
     # usage
     
-    d
+    s
     
     # license
     
@@ -18,16 +18,16 @@
     
     # Git
     
-    d
+    s
     
     # email
     
-    d
+    s
     
     # contribution
     
-    d
+    s
 
     # tests
 
-    as
+    s
