@@ -1,7 +1,6 @@
-const {title, description, installation, usage, license, Git, email, contribution} = generateHTML;
-
-
-
+const generateHTML = (answers) => {
+    console.log(answers) 
+}
 
 module.exports = {
     generateHTML,

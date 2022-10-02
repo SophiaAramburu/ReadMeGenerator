@@ -1,7 +1,7 @@
 // inquirer to generate questions
 const inquirer = require('inquirer');
 const fs = require('fs');
-//const {generateHTML} = require('./utils');
+const {generateHTML} = require('./utils');
 
 inquirer.prompt([
 
@@ -50,7 +50,8 @@ inquirer.prompt([
         }
     
     ]).then((answers) => {
-        console.log(answers);
+        //console.log(answers);
+        generateHTML(answers);
         // const htmlPageContent = generateHTML(answers);
         // console.log(htmlPageContent);
         })
