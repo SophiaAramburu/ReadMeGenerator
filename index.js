@@ -2,6 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const {generateHTML} = require('./utils');
+const { ifError } = require('assert');
 
 inquirer.prompt([
 
@@ -50,7 +51,13 @@ inquirer.prompt([
         }
     
     ]).then((answers) => {
-        console.log(generateHTML(answers));
+        //console.log(generateHTML(answers));
+        fs.writeFile("demo.txt", "hello", (err) => {
+            if(err) {
+                console.log(err);
+            }
+            
+        });
         // const htmlPageContent = generateHTML(answers);
         // console.log(htmlPageContent);
         })
