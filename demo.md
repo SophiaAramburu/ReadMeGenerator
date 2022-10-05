@@ -1,33 +1,47 @@
-# j
+# ReadMe Generator
 
     # description
     
-    g
+    An application that creates a readme file
     
+   
+   
     # installation
     
-    d
+    by typing it
+    
+    
     
     # usage
     
-    s
+    by entering the answers to the questions being asked
     
+   
+   
     # license
     
     The MIT License
     
+    
+    
     # Git
     
-    s
+    SophiaAramburu
     
+  
+  
     # email
     
-    s
+    sophiaconstance12@gmail.com
     
+   
+   
     # contribution
     
-    s
+    I made the JavaScript files and did everything myself :)
 
+    
+    
     # tests
 
-    s
+    you cannot test this

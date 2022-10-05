@@ -31,7 +31,7 @@ inquirer.prompt([
             type: 'list',
             name: 'license',
             message: 'What license did you use?',
-            choices: ['The MIT License', 'The GPL License', 'Apache license', 'GNU license', 'N/A']
+            choices: ['The MIT License', 'The GPL License', 'Apache license', 'N/A']
         },
         {
             // Enter your github information
@@ -66,8 +66,3 @@ inquirer.prompt([
         
         })
 
-
-
-//     fs.writeFile(`./${fileName.toLowerCase().split(' ').join('')}.md`,data,(err) => {
-//         if(err){
-//             console.log(err);
