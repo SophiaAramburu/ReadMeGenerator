@@ -1,8 +1,10 @@
-# ReadMe Generator
+# Read Me Generator
 
-    # description
+[![License](https://img.shields.io/badge/license-MIT-red.svg)](https://opensource.org/licenses/MIT)
+   
+# description
     
-    An application that creates a readme file
+    an application that creates a read me file
     
    
    
@@ -14,7 +16,7 @@
     
     # usage
     
-    by entering the answers to the questions being asked
+    by answering the questions being asked
     
    
    
@@ -38,10 +40,9 @@
    
     # contribution
     
-    I made the JavaScript files and did everything myself :)
-
+    I made the JavaScript and everything else :)
     
     
     # tests
 
-    you cannot test this
+    you cannot

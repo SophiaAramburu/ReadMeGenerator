@@ -41,7 +41,9 @@ function renderLicenseSection(license) {
 const generateMarkdown = ({title, description, installation, usage, license, Git, email, contribution, tests}) => {
     return `# ${title}
 
-    # description
+${renderLicenseSection(license)}
+   
+# description
     
     ${description}
     
