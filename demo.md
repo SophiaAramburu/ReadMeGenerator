@@ -1,4 +1,4 @@
-# Read Me Generator
+# ReadME generator
 
 [![License](https://img.shields.io/badge/license-MIT-red.svg)](https://opensource.org/licenses/MIT)
    
@@ -16,7 +16,7 @@
     
     # usage
     
-    by answering the questions being asked
+    by answering the questions asked by typing them in
     
    
    
@@ -40,9 +40,10 @@
    
     # contribution
     
-    I made the JavaScript and everything else :)
+    I created everything besides the starter code
+
     
     
     # tests
 
-    you cannot
+    you cannot test this
