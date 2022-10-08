@@ -43,6 +43,17 @@ const generateMarkdown = ({title, description, installation, usage, license, Git
 
 ${renderLicenseSection(license)}
    
+# Table of Contents
+
+*[description](#description)
+*[installation](#installation)
+*[usage](#usage)
+*[license](#license)
+*[Git](#Git)
+*[email](#email)
+*[contribution](#contribution)
+*[tests](#tests)
+
 # description
     
     ${description}
